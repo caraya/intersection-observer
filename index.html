@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flexbox Demo</title>
+  <style>
+      .boxes {
+          padding: .5vw;
+          flex-flow: row wrap;
+          display: flex;
+      }
+
+      .box {
+          margin: .5vw;
+          border: 1px solid #444;
+          padding: .5vw;
+          flex: 1 0 auto;
+          width: 600px;
+
+      }
+      .box img {
+          width: 100%;
+          height: auto;
+      }
+
+  </style>
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1"/>
+</head>
+<body>
+<h1>Example Flexbox Gallery</h1>
+
+<div class="boxes">
+    <div class="box box1">
+        <img src="images/love-the-architecture-01-1024x768.jpg" alt="A proper
+looking balloon" />
+        <h3>The architecture rocks</h3><p>&nbsp;</p>
+    </div>
+    <div class="box box2">
+        <img src="images/sunset-1024x768.jpg" alt="Utterly terrifying balloon" />
+
+        <h3>Amsterdam Sunset</h3>
+        <p>My last subset in Amsterdam.</p>
+    </div>
+    <div class="box box3">
+        <img data-src="images/pdx-signpost.jpg" alt="Bird
+Balloon" />
+        <h3>Portland Signpost</h3>
+        <p> ... </p>
+    </div>
+    <div class="box box4">
+        <img data-src="images/love-the-architecture-01-1024x768.jpg" alt="A proper
+looking balloon" />
+        <h3>The architecture rocks</h3>
+        <p> ... </p>
+    </div>
+    <div class="box box5">
+        <img data-src="images/sunset-1024x768.jpg" alt="Utterly terrifying balloon" />
+        <h3>Amsterdam Sunset</h3>
+        <p>My last subset in Amsterdam.</p>
+    </div>
+    <div class="box box6">
+        <img data-src="images/pdx-signpost.jpg" alt="Bird
+Balloon" />
+        <h3>Portland Signpost</h3>
+        <p> ... </p>
+    </div>
+</div>
+<script src="scripts/flexbox.js"></script>
+</body>
+</html>
